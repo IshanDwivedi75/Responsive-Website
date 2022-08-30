@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Value Essentials - Adding incremental value to clients</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ebb1d3eeb0.js" crossorigin="anonymous"></script>
+</head>
+ <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                   
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>About Us</h1>
+        </section>
+ 
+    <!--- About Us-->
+
+
+    <section class="about-us">
+     <div class="row">
+         <div class="about-col2">
+             <h1>Meeting all your Educational needs</h1>
+             <p>
+                Educational Institutes continue to struggle in identifying the right software, that can help them clear bottlenecks in their business operations, and struggle to improve process efficiency and thereby find it difficult to scale up business, seamlessly
+                We are on a mission to help businesses cut down on the time in choosing the right software, and in helping them reduce dependency on their internal employees who may move from their existing roles. In this endeavour we engage, study and consult to provide the right fit software for our clients. 
+                On the other hand, we also help principal companies increase their reach by way of creating channel to make their work more productive.
+
+             </p>
+             
+             <a href="about.html" class="hero-btn red-btn">EXPLORE NOW</a>
+         </div>
+         <div class="about-col2">
+             <img src="images/team.jpeg">
+
+         </div>
+     </div>
+    </section>
+
+    </section>
+    <!--- JavaScript for Toggle Menu --->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
+
+<!-- Contact Us-->
+<section class="cta">
+    <h1>Get In Touch With Us</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4> Find Us </h4>
+    <p>Connect with Us</p>
+    <div class="icons">
+         <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-linkedin"></i>
+         <i class="fa fa-instagram" ></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>
+    </p>
+</section>
+

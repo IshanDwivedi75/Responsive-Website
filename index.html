@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Value Essentials - Adding incremental value to clients</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ebb1d3eeb0.js" crossorigin="anonymous"></script>
+</head>
+ <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="products.html">CATALOG</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Educational Solutions for you</h1>
+                <p style="font-size: medium;">At our firm time management is our mission. No matter what you’re looking for, we’re committed to serve you exactly what you need, when you need it. Our customers love working with us because we serve high quality products with an exceptionally fast turnaround. </p>
+                <a href="#prod" class="hero-btn">Click here to know More</a>
+            </div>
+        </section>
+    <!--- Products --->
+    <section class="products" id="prod">
+        <h1>Products We Offer</h1>
+        <p>Find your match</p>
+        <br>
+        <br>
+        <h2>Business Processes</h2>
+        <div class = "row">
+            <div class="course-col">
+                <h3>Time Management Solution</h3>
+                
+            </div>
+            <div class="course-col">
+                <h3>Course Management Platform</h3>
+            </div>
+            <div class="course-col">
+                <h3>CRM</h3>
+                <p>Get a single view of your prospect to customer and post customer care in one screen.</p>
+                <a href="https://crmaccess.Login.com/begin-free-trial/?rstoken=ab9e72b3d4474569979832588ac61bcd" target="_blank">Click here for Free Trial</a>
+            </div>
+        </div>
+
+        <h2>Functions</h2>
+        <div class = "row">
+            
+            <div class="course-col">
+                
+                <h3>No-Touch Attendance</h3>
+                <p>During this pandemic, replace your touch based biometric device with a no-touch state of art face recognition attendance management system. For best use for Work from Home, At Factory, or anywhere. Capture time and location to ensure accuracy on mobile and laptop, and get an admin dashboard for analysis and reporting.</p>
+            
+        </div>
+            <div class="course-col">
+                <h3>HRMS</h3>
+                <p>Your people are your strength. Plan their growth against their performance.</p>
+            </div>
+            <div class="course-col">
+                <h3>Marks</h3>
+                <p>Maintain your aggregate</p>
+            </div>
+        </div>
+   
+        <h2>Higher StudiesSolutions</h2>
+        <div class = "row">
+            <div class="course-col">
+                <h3>Fee Calculation Software</h3>
+                <p>Calcualation of fees including extra expenses and taxes many more.</p>
+           
+
+
+    </section>
+    <!--- About Us-->
+    <section class="about">
+        <h1>About Us</h1>
+        <p>
+            You're with the best company
+        </p>
+        <div class="row">
+            <div class="about-col">
+                <img src="images/logo.PNG">
+                <div class="layer">
+                    <h2>Ishan</h2>
+                </div>
+               
+            </div>
+           
+           <!--<div class="about-col">
+                <img src="images/casualoffice2.jpg">
+                <div class="layer">
+                    <h2>Ishan</h2>
+                </div>
+            -->
+            </div>
+        
+        </div>
+        <div>
+             Knowledge and expertise that’s incomparable. We utilize this experience to provide both companies and individuals with quality and innovative products they can truly count on.
+
+
+
+             We ensure that we stay ahead of the industry curve by using the latest technologies       </div>
+        <!--
+        <div class="row">
+        <p class="p1">
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+            </ul>
+        </p>
+    <p class="p1">
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, laborum velit. Facilis eius ullam voluptas dolore autem recusandae doloremque laborum fugiat at? Ex placeat, officia perspiciatis quae deleniti dignissimos assumenda?</li>
+        </ul>
+    </p>    
+</div>
+    </section>
+    -->
+  
+    <!--- JavaScript for Toggle Menu --->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
+
+<!-- Contact Us-->
+<section class="cta">
+    <h1>Get In Touch With Us</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4> Find Us </h4>
+    <p>Connect with Us</p>
+    <div class="icons">
+         <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-linkedin"></i>
+         <i class="fa fa-instagram" ></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i>
+    </p>
+</section>
